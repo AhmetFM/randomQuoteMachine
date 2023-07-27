@@ -49,9 +49,10 @@ function App() {
         <div id="buttons" className="flex justify-between mt-6">
           <button
             style={{ backgroundColor: color }}
-            className="p-3 rounded-lg text-white "
+            className="rounded-lg text-white "
           >
             <a
+              className="p-3"
               href={
                 `https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=` +
                 encodeURIComponent('"' + quote + '" ' + author)
